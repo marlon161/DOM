@@ -10,7 +10,7 @@
 .contenedor{
     width: 30rem;
     height: 30rem;
-    background-color: rgba(188, 165, 189, 0.5);
+    background-color: light blue;
     border: 4px solid rgb(51, 51, 51);
     border-radius: 5px;
 
@@ -70,7 +70,7 @@
     font-size: 20px;
 }
 .cambiar_color{
-    background-color: heavenly;
+    background-color: light blue;
 }
 .contenedor form input{
     width: 30rem;
