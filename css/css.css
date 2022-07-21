@@ -1,1 +1,98 @@
+.fondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor{
+    width: 40rem;
+    height: 40rem;
+    background-color: rgba(188, 165, 189, 0.5);
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.titulo{
+    width: 30rem;
+    height: 6rem;
+    background-color: rgb(165, 189, 187, 0.5);
+    border: 5px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.botones{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.botonAnterior{
+    width: 12.5rem;
+    height: 6rem;
+    background-color: rgba(170, 189, 165, 0.8);
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5rem 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.botonSiguiente{
+    width: 12.5rem;
+    height: 6rem;
+    background-color: rgba(170, 189, 165, 0.8);
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 4px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.cambiar_color{
+    background-color: gray;
+}
+.contenedor form input{
+    width: 30rem;
+    height: 4rem;
+    background-color: rgba(169, 165, 189, 0.8);
+    border: 5px solid rgb(51, 51, 51);
+    padding: 5px;
+    margin-bottom: 30px;
+    outline: none;
+    color: rgb(51, 51, 51);
+}
+#boton_ver{
+    width: 30rem;
+    height: 6rem;
+    background-color: rgba(189, 165, 165, 0.7);
+    border: 5px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
